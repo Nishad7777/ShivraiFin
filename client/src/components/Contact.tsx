@@ -161,7 +161,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Address</h4>
-                      <p className="text-gray-600">123 Main Street, City Center, Maharashtra, India</p>
+                      <p className="text-gray-600">Buldhana, Maharashtra, India</p>
                     </div>
                   </div>
                   
@@ -200,6 +200,24 @@ const Contact = () => {
               </CardContent>
             </Card>
             
+            <Card className="shadow-md mb-8">
+              <CardContent className="p-6 md:p-8">
+                <h3 className="text-2xl font-bold text-primary mb-6">Our Location</h3>
+                <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7463.980807427176!2d76.25942!3d20.345682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1715159534978!5m2!1sen!2sin" 
+                    width="600" 
+                    height="450" 
+                    style={{ border: 0 }} 
+                    allowFullScreen 
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                  ></iframe>
+                </div>
+              </CardContent>
+            </Card>
+
             <Card className="shadow-md">
               <CardContent className="p-6 md:p-8">
                 <h3 className="text-2xl font-bold text-primary mb-6">Connect With Us</h3>
