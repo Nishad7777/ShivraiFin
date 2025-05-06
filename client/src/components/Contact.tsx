@@ -161,7 +161,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Address</h4>
-                      <p className="text-gray-600">Buldhana, Maharashtra, India</p>
+                      <p className="text-gray-600">Coordinates: 20.345682, 76.259420, Buldhana, Maharashtra, India</p>
                     </div>
                   </div>
                   
@@ -205,7 +205,7 @@ const Contact = () => {
                 <h3 className="text-2xl font-bold text-primary mb-6">Our Location</h3>
                 <div className="relative w-full h-0 pb-[56.25%] rounded-lg overflow-hidden">
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7463.980807427176!2d76.25942!3d20.345682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1715159534978!5m2!1sen!2sin" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.64942848124878!2d76.25930974441354!3d20.345641387900395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDIwJzQ0LjUiTiA3NsKwMTUnMzMuOSJF!5e0!3m2!1sen!2sin!4v1715159852978!5m2!1sen!2sin" 
                     width="600" 
                     height="450" 
                     style={{ border: 0 }} 
