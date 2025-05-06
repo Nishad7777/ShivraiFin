@@ -171,7 +171,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Phone</h4>
-                      <p className="text-gray-600">+91 123 456 7890</p>
+                      <p className="text-gray-600">+91 9527385070</p>
                     </div>
                   </div>
                   
@@ -206,21 +206,25 @@ const Contact = () => {
                 
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://facebook.com/share/1BivBprih4"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="bg-blue-600 hover:bg-blue-700 text-white w-12 h-12 rounded-full flex items-center justify-center transition-colors"
                     aria-label="Facebook"
                   >
                     <FaFacebookF className="text-xl" />
                   </a>
                   <a 
-                    href="#" 
+                    href="https://wa.me/9309176930"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 text-white w-12 h-12 rounded-full flex items-center justify-center transition-colors"
                     aria-label="WhatsApp"
                   >
                     <FaWhatsapp className="text-xl" />
                   </a>
                   <a 
-                    href="#" 
+                    href="mailto:info@shivraimahila.com" 
                     className="bg-red-600 hover:bg-red-700 text-white w-12 h-12 rounded-full flex items-center justify-center transition-colors"
                     aria-label="Email"
                   >

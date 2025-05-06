@@ -1,5 +1,6 @@
 import { FaFacebookF, FaWhatsapp, FaTwitter, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { scrollToSection } from "@/lib/utils";
+import logoImage from "../assets/logo.png";
 
 const Footer = () => {
   const handleNavClick = (id: string) => {
@@ -12,9 +13,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white font-bold text-lg mr-2">
-                S
-              </div>
+              <img 
+                src={logoImage} 
+                alt="Shivrai Mahila Urban Co-op. Credit Society Logo" 
+                className="w-10 h-10 rounded-full mr-2 object-cover"
+              />
               <div>
                 <h3 className="text-lg font-bold">Shivrai Mahila</h3>
                 <p className="text-sm text-gray-400">Est. 2014</p>
@@ -24,10 +27,22 @@ const Footer = () => {
               Thev surakashe chi vishwas Aryata
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
+              <a 
+                href="https://facebook.com/share/1BivBprih4" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-400 hover:text-white transition-colors" 
+                aria-label="Facebook"
+              >
                 <FaFacebookF />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="WhatsApp">
+              <a 
+                href="https://wa.me/9309176930" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-gray-400 hover:text-white transition-colors" 
+                aria-label="WhatsApp"
+              >
                 <FaWhatsapp />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
@@ -67,7 +82,7 @@ const Footer = () => {
               </li>
               <li className="flex">
                 <FaPhoneAlt className="text-primary mt-1 mr-3" />
-                <span className="text-gray-400">+91 123 456 7890</span>
+                <span className="text-gray-400">+91 9527385070</span>
               </li>
               <li className="flex">
                 <FaEnvelope className="text-primary mt-1 mr-3" />

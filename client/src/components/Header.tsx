@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaFacebookF, FaWhatsapp } from "react-icons/fa";
 import { scrollToSection } from "@/lib/utils";
+import logoImage from "../assets/logo.png";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,9 +37,11 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl mr-2">
-              S
-            </div>
+            <img 
+              src={logoImage} 
+              alt="Shivrai Mahila Urban Co-op. Credit Society Logo" 
+              className="w-12 h-12 rounded-full mr-2 object-cover"
+            />
             <div>
               <h1 className="text-lg md:text-xl font-bold text-primary">Shivrai Mahila</h1>
               <p className="text-xs md:text-sm text-dark">Urban Co-op. Credit Society Ltd.</p>
@@ -65,10 +68,10 @@ const Header = () => {
 
           {/* Social Media Links */}
           <div className="hidden md:flex items-center space-x-3">
-            <a href="#" className="text-primary hover:text-primary/80 transition-colors" aria-label="Facebook">
+            <a href="https://facebook.com/share/1BivBprih4" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors" aria-label="Facebook">
               <FaFacebookF className="text-xl" />
             </a>
-            <a href="#" className="text-green-500 hover:text-green-600 transition-colors" aria-label="WhatsApp">
+            <a href="https://wa.me/9309176930" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600 transition-colors" aria-label="WhatsApp">
               <FaWhatsapp className="text-xl" />
             </a>
           </div>
@@ -85,10 +88,10 @@ const Header = () => {
           <button onClick={() => handleNavClick("contact")} className="block w-full text-left font-semibold hover:text-primary transition-colors">Contact</button>
           
           <div className="flex items-center space-x-3 pt-2 border-t border-gray-200">
-            <a href="#" className="text-primary hover:text-primary/80 transition-colors" aria-label="Facebook">
+            <a href="https://facebook.com/share/1BivBprih4" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors" aria-label="Facebook">
               <FaFacebookF className="text-xl" />
             </a>
-            <a href="#" className="text-green-500 hover:text-green-600 transition-colors" aria-label="WhatsApp">
+            <a href="https://wa.me/9309176930" target="_blank" rel="noopener noreferrer" className="text-green-500 hover:text-green-600 transition-colors" aria-label="WhatsApp">
               <FaWhatsapp className="text-xl" />
             </a>
           </div>
