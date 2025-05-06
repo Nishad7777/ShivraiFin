@@ -43,8 +43,8 @@ const Header = () => {
               className="w-12 h-12 rounded-full mr-2 object-cover"
             />
             <div>
-              <h1 className="text-lg md:text-xl font-bold text-primary">Shivrai Mahila</h1>
-              <p className="text-xs md:text-sm text-dark">Urban Co-op. Credit Society Ltd.</p>
+              <h1 className="text-lg md:text-xl font-bold text-primary">Shivrai Mahila <span className="text-primary">Urban</span></h1>
+              <p className="text-xs md:text-sm text-dark">Co-op. Credit Society Ltd.</p>
             </div>
           </div>
 

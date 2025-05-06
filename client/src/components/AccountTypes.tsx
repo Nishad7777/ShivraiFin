@@ -24,7 +24,7 @@ const accountTypes = [
   },
   {
     title: "Fixed Deposit",
-    interestRate: "7.0%",
+    interestRate: "10.5%",
     features: [
       "Flexible tenure options",
       "Higher interest rates",

@@ -19,7 +19,7 @@ const Footer = () => {
                 className="w-10 h-10 rounded-full mr-2 object-cover"
               />
               <div>
-                <h3 className="text-lg font-bold">Shivrai Mahila</h3>
+                <h3 className="text-lg font-bold">Shivrai Mahila <span className="text-primary">Urban</span></h3>
                 <p className="text-sm text-gray-400">Est. 2014</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Footer = () => {
               </li>
               <li className="flex">
                 <FaEnvelope className="text-primary mt-1 mr-3" />
-                <span className="text-gray-400">info@shivraimahila.com</span>
+                <span className="text-gray-400">vishnuambaskar111@gmail.com</span>
               </li>
             </ul>
           </div>

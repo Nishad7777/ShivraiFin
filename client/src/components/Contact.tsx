@@ -181,7 +181,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">Email</h4>
-                      <p className="text-gray-600">info@shivraimahila.com</p>
+                      <p className="text-gray-600">vishnuambaskar111@gmail.com</p>
                     </div>
                   </div>
                   
@@ -224,7 +224,7 @@ const Contact = () => {
                     <FaWhatsapp className="text-xl" />
                   </a>
                   <a 
-                    href="mailto:info@shivraimahila.com" 
+                    href="mailto:vishnuambaskar111@gmail.com" 
                     className="bg-red-600 hover:bg-red-700 text-white w-12 h-12 rounded-full flex items-center justify-center transition-colors"
                     aria-label="Email"
                   >
